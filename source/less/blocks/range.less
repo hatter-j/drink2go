@@ -1,0 +1,52 @@
+.range__controls {
+  position: relative;
+  margin-bottom: 38px;
+}
+
+.range__scale {
+  width: 280px;
+  height: 2px;
+  background-color: @light-grey;
+  margin: 0 auto;
+}
+
+.range__scale-progress {
+  width: 240px;
+  height: 4px;
+  background-color: @primary-lighter;
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  &:disabled {
+    background-color: @base-grey;
+  }
+}
+.range__toggle {
+  width: 24px;
+  height: 24px;
+  background-image: url("../../img/icons/icon_range.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: -11px;
+  left: 0;
+
+  &:hover,
+  &:focus {
+    background-image: url("../../img/icons/icon_range_hover.svg");
+  }
+
+  &:active {
+    background-image: url("../../img/icons/icon_range_active.svg");
+  }
+
+  &:disabled {
+    background-image: url("../../img/icons/icon_range_disabled.svg");
+  }
+}
+
+.range__toggle--max {
+  left: 237px;
+}
+

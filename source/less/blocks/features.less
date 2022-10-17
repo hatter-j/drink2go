@@ -1,0 +1,71 @@
+.features {
+  padding-top: 38px;
+  padding-bottom: 30px;
+}
+
+.features__label {
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: @base-primary;
+  margin-bottom: 5px;
+}
+
+.features__slogan {
+  font-size: 24px;
+  line-height: 36px;
+  font-weight: 700;
+  margin-top: 5px;
+}
+
+.features__caption {
+  font-size: 18px;
+  line-height: 32px;
+  font-weight: 700;
+}
+
+.features__list {
+  padding-top: 10px;
+}
+
+.features__description {
+  margin-left: 0;
+  margin-top: 5px;
+}
+
+.features__item {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 31px;
+
+  &::before {
+    content: "";
+    display: block;
+    width: 52px;
+    height: 56px;
+    background-repeat: no-repeat;
+  }
+
+  &:nth-child(1)::before {
+    background-image: url("../../img/icons/icon_timer.svg");
+  }
+
+  &:nth-child(2)::before {
+    background-image: url("../../img/icons/icon_pocket.svg");
+  }
+
+  &:nth-child(3)::before {
+    background-image: url("../../img/icons/icon_lightening.svg");
+  }
+
+  &:nth-child(4)::before {
+    background-image: url("../../img/icons/icon_leaf.svg");
+  }
+}
+
+.features__caption {
+  margin-top: 10px;
+}

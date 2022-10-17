@@ -1,0 +1,60 @@
+.filters {
+  padding-top: 38px;
+  background-color: @lightest-grey;
+}
+
+.filters__label {
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: @base-primary;
+  margin-bottom: 5px;
+}
+
+.filters__caption {
+  font-size: 24px;
+  line-height: 36px;
+  font-weight: 700;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.filters__box {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 600;
+  display: flex;
+  align-items: baseline;
+}
+
+.filters__wrapper {
+  display: flex;
+  align-items: baseline;
+  padding-left: 7px;
+
+  &:hover,
+  &:focus {
+    background-color: @base-secondary;
+    border-radius: 4px;
+  }
+
+  &:active {
+    background-color: transparent;
+  }
+}
+
+.filters__sorting {
+  margin-right: 15px;
+}
+
+.filters__sorting-status {
+  color: @base-primary;
+}
+
+.filters__sorting-button {
+  width: 25px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}

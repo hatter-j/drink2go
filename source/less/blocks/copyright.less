@@ -1,0 +1,28 @@
+.copyright {
+  font-size: 12px;
+  line-height: 16px;
+  color: @base-grey;
+  padding-top: 8px;
+  display: flex;
+  justify-content: center;
+}
+
+.copyright__link {
+  .link-style();
+  color: @base-grey;
+  display: flex;
+  align-items: center;
+
+  &:hover,
+  &:focus {
+    color: @base-primary;
+  }
+
+  &:active {
+    color: @primary-darker;
+  }
+}
+
+.copyright__link-text {
+  margin-right: 4px;
+}
